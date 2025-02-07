@@ -52,5 +52,9 @@ const PeopleModule = (function () {
     return { init };
 })();
 
+// we can do this if we wanna manually control it to run once
+// PeopleModule.init();
+
+
 // Initialize the module after the DOM loads
 document.addEventListener("DOMContentLoaded", PeopleModule.init);
