@@ -21,7 +21,7 @@ const PeopleModule = (function () {
 
         people.forEach((person, index) => {
             const li = document.createElement("li");
-            li.innerHTML = `<span>${person}</span> <i class="del" data-index="${index}">X</i>`;
+            li.innerHTML = `<span>${person}</span> <i class="del" data-index="${index}">remove</i>`;
             ul.appendChild(li);
         });
     };
